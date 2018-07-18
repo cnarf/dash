@@ -1,4 +1,6 @@
-FROM debian:scratch
+ARG TAG=latest
+
+FROM cnarf/stretch:${TAG}
 
 LABEL maintainer="cnarf@charline"
 LABEL description="A static (da)sh"

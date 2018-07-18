@@ -1,5 +1,5 @@
 .PHONY:: dash
-dash: dash.iid
+dash: stretch dash.iid
 all:: dash
 clean::
 		rm -f dash.iid
