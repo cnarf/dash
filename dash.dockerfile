@@ -1,4 +1,4 @@
-FROM cnarf/buster:latest
+FROM debian:scratch
 
 LABEL maintainer="cnarf@charline"
 LABEL description="A static (da)sh"
